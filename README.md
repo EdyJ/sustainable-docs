@@ -6,7 +6,7 @@ Our notes on making sustainable docs for software projects.
 
 - Los ficheros se escriben en Markdown.
 - Permite extensiones de Markdown tanto oficiales como externas.
-- Genera html estático basado en Bootstrap. 
+- Genera html estático basado en Bootstrap.
 - Permite previsualización casi-en-vivo al escribir.
 - Apariencia elegante y fácil de configurar.
 - La estructura de ficheros puede ir en el propio GIT del objeto a documentar.
@@ -52,3 +52,19 @@ Este helper permite expresiones inline usando $ $. Mathjax ya detecta $$ $$ por 
     markdown_extensions: [iconfonts(prefix=fa)]
 
 FontAwesome está incluído por defecto. Para usar Glyphicons habría que copiar la fuente en la carpeta fonts del theme y cambiar el prefijo a glyphicons.
+
+## Soporte para barras de progreso
+
+[ProgressBar](http://facelessuser.github.io/PyMdown/Extensions/ProgressBar.html)
+
+## Opciones externas para soporte al cliente
+
+[User Echo](http://userecho.com), ejemplo: foro de soporte para [SublimeText](http://sublimetext.userecho.com/forum/2079-general/)
+
+## Editor para ficheros Markdown
+
+El [SublimeText 3](http://www.sublimetext.com) tiene pintaza.
+
+[Personalización de los colores para sintax highlight](http://stackoverflow.com/a/18091547/2519774)
+
+Para editar los colores, usar [ColorSchemeEditor](https://github.com/bobef/ColorSchemeEditor)
