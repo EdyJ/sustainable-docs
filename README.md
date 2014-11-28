@@ -19,9 +19,11 @@ Our notes on making sustainable docs for software projects.
 
 ### Markdown editing with Syntax Highlight
 
-A syntax highlight file for [Notepad++]() is provided.
+A syntax highlight file for [Notepad++](http://notepad-plus-plus.org/) is provided.
 
 ### Setup & tests
 
-For more information and resources see the provided mkdocs-sandbox pages for MkDocs.
+For more information and resources see the provided [mkdocs-sandbox](https://github.com/EdyJ/sustainable-docs/tree/master/mkdocs-sandbox) pages.
+
+The sandbox project requires the Markdown extensions [python-markdown-mathjax](https://github.com/mayoff/python-markdown-mathjax) and [iconfont](https://github.com/MadLittleMods/markdown-icons) to be generated / served with MkDocs.
 
