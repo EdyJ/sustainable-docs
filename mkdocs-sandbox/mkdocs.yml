@@ -1,0 +1,13 @@
+site_name: MkDocs Sandbox
+theme_dir: 'custom_theme'
+theme: mkdocs
+markdown_extensions: ['extra', 'admonition', 'mathjax', 'iconfonts(base=fa,prefix=fa)']
+
+extra_css: ['css/tables.css','css/admonitions.css','css/fixes.css']
+extra_javascript: ['https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML','js/mathjaxhelper.js']
+
+repo_url: https://github.com/EdyJ/sustainable-docs
+
+pages:
+- ['index.md', 'MkDocs Sandbox']
+- ['feature-test.md', 'Feature Test']
