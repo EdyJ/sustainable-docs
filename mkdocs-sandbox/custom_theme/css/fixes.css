@@ -44,3 +44,7 @@ display: inline-block;
 		display: none;
 	}
 }
+
+canvas {
+  background-color: gray; 
+}
