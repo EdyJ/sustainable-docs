@@ -209,22 +209,21 @@ This text will catch any formatting which has overflowed from a delimiter.
 
 ## Fabric Demo
 
-Mirar este link: https://github.com/kangax/fabric.js/issues/868
-
 <canvas id="c" class="img-responsive" width="825px" height="600px">
 </canvas>
-
 <script type="text/javascript">
 	window.onload = function() // Aqui no podemos usar $ porque jquery se carga despues que este script...
 	{
 		var canvas = new fabric.StaticCanvas('c');
 		//canvas.setDimensions(825, 600); Esto parece que no hace nada
 		$('#c').css("height", "auto"); // Esto es necesario porque al inicializar el canvas, fabric asigna un alto fijo
-		
+
 		canvas.add(
-			new fabric.Rect({ top: 50, left: 50, width: 50, height: 50, fill: '#f55' }),
-			new fabric.Circle({ top: 50, left: 725, radius: 25, fill: 'green' }),
-			new fabric.Triangle({ top: 500, left: 400, width: 50, height: 50, fill: 'yellow' })
+			new fabric.Rect({ top: 0, left: 0, width: 50, height: 50, fill: '#f55' }),
+			new fabric.Circle({ top: 0, left: 775, radius: 25, fill: 'green' }),
+			new fabric.Triangle({ top: 550, left: 400, width: 50, height: 50, fill: 'yellow' })
 		);
 	};
 </script>
+
+Mirar este link: https://github.com/kangax/fabric.js/issues/868

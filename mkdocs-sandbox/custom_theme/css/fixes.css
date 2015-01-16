@@ -29,13 +29,17 @@ display: inline-block;
 
 /* Solves the problem of jumping to section and being hidden by fixed nav-bar */
 /* https://github.com/twbs/bootstrap/issues/1768 */
-*[id]:before { 
-  display: block; 
-  content: " "; 
-  margin-top: -70px; 
-  height: 70px; 
-  visibility: hidden; 
+
+/* WARNING! Conflicts with Mathjax
+
+*[id]:before {
+  display: block;
+  content: " ";
+  margin-top: -70px;
+  height: 70px;
+  visibility: hidden;
 }
+*/
 
 /* Hides the prev, next and github links when browser width is between 768 and 1200px */
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -46,5 +50,5 @@ display: inline-block;
 }
 
 canvas {
-  background-color: gray; 
+  background-color: transparent;
 }
