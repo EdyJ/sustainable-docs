@@ -25,5 +25,9 @@ A syntax highlight file for [Notepad++](http://notepad-plus-plus.org/) is provid
 
 For more information and resources see the provided [mkdocs-sandbox](https://github.com/EdyJ/sustainable-docs/tree/master/mkdocs-sandbox) pages.
 
-The sandbox project requires the Markdown extensions [python-markdown-mathjax](https://github.com/mayoff/python-markdown-mathjax) and [iconfont](https://github.com/MadLittleMods/markdown-icons) to be generated / served with MkDocs.
+The sandbox project requires these extensions:
 
+- [python-markdown-math](https://github.com/mitya57/python-markdown-math) 
+- [iconfont](https://github.com/MadLittleMods/markdown-icons)
+
+They may be installed via 'pip install <path-to-extension>/archive/master.zip'
