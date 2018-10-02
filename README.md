@@ -30,4 +30,4 @@ The sandbox project requires these extensions:
 - [python-markdown-math](https://github.com/mitya57/python-markdown-math) 
 - [iconfont](https://github.com/MadLittleMods/markdown-icons)
 
-They may be installed via 'pip install <path-to-extension>/archive/master.zip'
+They may be installed via `pip install <path-to-extension>/archive/master.zip`
